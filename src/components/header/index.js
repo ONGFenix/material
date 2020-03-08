@@ -3,7 +3,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 
 import "./style.css";
-import logo from '../../resources/logo.png';
+import logo from '../../resources/favicon.png';
 
 const Header = () => (
     <header id="main-header">
