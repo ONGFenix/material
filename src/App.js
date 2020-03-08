@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 import './style.css'
 
@@ -9,11 +9,11 @@ import Routes from './routes';
 
 const App = () => (
   <div className="App">
-    <BrowserRouter>
+    <BrowserRouter basename="/material">
       <Header />
       <div className="middle">
-      <Sidebar />
-      <Routes />
+        <Sidebar />
+        <Routes />
       </div>
     </BrowserRouter>
   </div>
