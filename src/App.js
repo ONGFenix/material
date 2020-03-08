@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import './style.css'
 
@@ -9,13 +9,13 @@ import Routes from './routes';
 
 const App = () => (
   <div className="App">
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <div className="middle">
         <Sidebar />
         <Routes />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   </div>
 );
 

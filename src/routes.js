@@ -9,7 +9,7 @@ import Combinatoria from './pages/combinatoria';
 
 const Routes = () => (
     <Switch>
-        <Route exact path='/material' component={Main} />
+        <Route exact path='/' component={Main} />
         <Route exact path='/math' component={MathMenu} />
         <Route exact path='/math/frente1' component={Main} />
         <Route exact path='/math/frente2' component={Main} />

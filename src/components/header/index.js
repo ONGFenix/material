@@ -7,7 +7,7 @@ import logo from '../../resources/logo.png';
 
 const Header = () => (
     <header id="main-header">
-        <NavLink to='/material' className='header-link' activeClassName='header-link-active'>
+        <NavLink to='/' className='header-link' activeClassName='header-link-active'>
             <h1>ONG Fênix</h1>
         </NavLink>
         <img src={logo} alt="logo" />
