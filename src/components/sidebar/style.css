@@ -1,0 +1,32 @@
+div#side-bar{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+div.side-bar-box{
+    border: 2px solid #da552f;
+    margin: 15px;
+    padding: 10px;
+    position: relative;
+    background-color: #fff;
+}
+
+div.side-bar-box h1{
+    margin-bottom: 20px;
+}
+
+ul.box-sections{
+    margin-left: 30px;
+}
+ul.box-sections li{
+    margin-top: 6px;
+}
+
+.navlink{
+    color: #da552f;
+}
+.navlink-active{
+    color: #da552f;
+}

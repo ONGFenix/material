@@ -1,0 +1,17 @@
+div.materia h1{
+    color: #da552f;
+    font-style: italic;
+}
+
+div.materia h3{
+    font-size: 18px;
+}
+
+div.materia li{
+    margin-left: 2.5em;
+}
+
+div.materia hr{
+    margin-top: 15px;
+    color: #da552f;
+}

@@ -1,0 +1,27 @@
+header#main-header{
+    width: 100%;
+    min-width: 600px;
+    height: 100px;
+    background-color: #da552f;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header#main-header img{
+    height: 100px;
+    margin: none;
+    padding: none;
+}
+
+header#main-header h1{
+    margin-left: 10px;
+}
+
+.header-link, .header-link-active{
+    color: #fff;
+    text-decoration: none;
+}
