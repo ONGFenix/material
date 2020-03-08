@@ -9,7 +9,7 @@ import Routes from './routes';
 
 const App = () => (
   <div className="App">
-    <HashRouter>
+    <HashRouter basename="/material">
       <Header />
       <div className="middle">
         <Sidebar />
