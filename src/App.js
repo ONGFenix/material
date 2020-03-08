@@ -9,7 +9,7 @@ import Routes from './routes';
 
 const App = () => (
   <div className="App">
-    <BrowserRouter basename="/material">
+    <BrowserRouter>
       <Header />
       <div className="middle">
         <Sidebar />
