@@ -24,3 +24,16 @@ body{
     padding: 30px;
     font-size: 1.5em;
 }
+
+.login{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #fff;
+    border: 2px solid #da552f;
+    margin: 15px;
+    padding: 30px;
+}
