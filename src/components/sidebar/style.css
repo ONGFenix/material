@@ -11,6 +11,7 @@ div.side-bar-box{
     padding: 10px;
     position: relative;
     background-color: #fff;
+    overflow-wrap: break-word;
 }
 
 div.side-bar-box h1{

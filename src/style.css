@@ -25,6 +25,10 @@ body{
     font-size: 1.5em;
 }
 
+.content a{
+    text-decoration: underline #da552f;
+}
+
 .login{
     position: absolute;
     display: flex;

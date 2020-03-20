@@ -9,6 +9,22 @@ export default class Assunto extends Component{
         materias: this.props.content
     }
 
+    renderMaterial = materia => {
+        if(materia.hyperlink){
+            return (
+                <a href={materia.material} target="_blank" className="navlink" activeClassName="navlink-active">
+                    <h2>Material didático</h2>
+                </a>
+            );
+        }else{
+            return(
+                <NavLink to={materia.material} className="navlink" activeClassName="navlink-active">
+                    <h2>Material didático</h2>
+                </NavLink>
+            );
+        }
+    }
+
     renderReferencia = referencias => (
         referencias.map(referencia => (
             <a href={referencia.link} target="_blank" className="navlink" activeClassName="navlink-active">
@@ -49,9 +65,7 @@ export default class Assunto extends Component{
                 {this.state.materias.map(materia =>(
                     <div className="materia">
                         <h1>{materia.name}</h1>
-                        <NavLink to={materia.material} className="navlink" activeClassName="navlink-active">
-                            <h2>Material didático</h2>
-                        </NavLink>
+                        {this.renderMaterial(materia)}
                         <h2>Referências:</h2>
                         <ul>
                             {this.renderReferencia(materia.referencias)}
