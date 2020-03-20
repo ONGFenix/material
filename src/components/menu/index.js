@@ -6,8 +6,9 @@ const Menu = props => {
 
     return(
         <div className="content">
+            <h1>{props.content.materia}</h1>
             <ul>
-                {props.content.map(page => (
+                {props.content.frentes.map(page => (
                     <NavLink to={page.link} className="navlink" activeClassName="navlink-active" >
                         <li>
                             {page.name}    
