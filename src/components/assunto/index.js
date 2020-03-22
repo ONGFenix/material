@@ -12,7 +12,7 @@ export default class Assunto extends Component{
     renderMaterial = materia => {
         if(materia.hyperlink){
             return (
-                <a href={materia.material} target="_blank" className="navlink" activeClassName="navlink-active">
+                <a href={materia.material} target="_blank" className="navlink" >
                     <h2>Material didático</h2>
                 </a>
             );
@@ -27,8 +27,8 @@ export default class Assunto extends Component{
 
     renderReferencia = referencias => (
         referencias.map(referencia => (
-            <a href={referencia.link} target="_blank" className="navlink" activeClassName="navlink-active">
-                <li>{referencia.label}</li>
+            <a href={referencia.link} key={referencia.link} target="_blank" className="navlink" >
+                <li>{referencia.name}</li>
             </a>
         ))
     )
@@ -39,8 +39,8 @@ export default class Assunto extends Component{
                 <h3>Fixação: </h3>
                 <ul>
                     {exercicios.fixacao.map(exercicio => (
-                        <a href={exercicio.link} target="_blank" className="navlink" activeClassName="navlink-active">
-                            <li>{exercicio.label}</li>
+                        <a href={exercicio.link} key={exercicio.link} target="_blank" className="navlink" >
+                            <li>{exercicio.name}</li>
                         </a>
                     ))}
                 </ul>
@@ -49,8 +49,8 @@ export default class Assunto extends Component{
             <h3>Propostos: </h3>
             <ul>
                 {exercicios.propostos.map(exercicio => (
-                    <a href={exercicio.link} target="_blank" className="navlink" activeClassName="navlink-active">
-                        <li>{exercicio.label}</li>
+                    <a href={exercicio.link} key={exercicio.link} target="_blank" className="navlink" >
+                        <li>{exercicio.name}</li>
                     </a>
                 ))}
             </ul>
@@ -63,7 +63,7 @@ export default class Assunto extends Component{
         return(
             <div className="assunto">
                 {this.state.materias.map(materia =>(
-                    <div className="materia">
+                    <div className="materia" key={materia.name}>
                         <h1>{materia.name}</h1>
                         {this.renderMaterial(materia)}
                         <h2>Referências:</h2>
@@ -74,7 +74,7 @@ export default class Assunto extends Component{
                         <ul>
                             {this.renderExercicios(materia.exercicios)}
                             <li>
-                                <a href={materia.exercicios.discursivos} className="navlink" activeClassName="navlink-active" download>
+                                <a href={materia.exercicios.discursivos} className="navlink" download>
                                     <h2>Discursivos</h2>
                                 </a>
                             </li>

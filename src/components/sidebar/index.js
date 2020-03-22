@@ -9,7 +9,7 @@ class Sidebar extends Component{
 
     renderSections = (subject) => (
         subject.frentes.map(section => (
-            <NavLink to={section.link} className="navlink" activeClassName="navlink-active"><li>{section.name}</li></NavLink>
+            <NavLink to={section.link} key={section.link} className="navlink" activeClassName="navlink-active"><li>{section.name}</li></NavLink>
         ))
     )
 
@@ -18,7 +18,7 @@ class Sidebar extends Component{
         return (
         <div id="side-bar">
             {contents.map(subject =>(
-                <div className="side-bar-box">
+                <div className="side-bar-box" key={subject.link}>
                     <NavLink to={subject.link} className="navlink" activeClassName="navlink-active"><h1>{subject.materia}</h1></NavLink>
                     <ul className="box-sections">
                         {this.renderSections(subject)}
