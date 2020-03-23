@@ -5,10 +5,6 @@ import './style.css';
 
 export default class Assunto extends Component{
 
-    state = {
-        materias: this.props.content
-    }
-
     renderMaterial = materia => {
         if(materia.hyperlink){
             return (
@@ -59,10 +55,9 @@ export default class Assunto extends Component{
     )
 
     render(){
-        console.log(this.props);
         return(
             <div className="assunto">
-                {this.state.materias.map(materia =>(
+                {this.props.content.map(materia =>(
                     <div className="materia" key={materia.name}>
                         <h1>{materia.name}</h1>
                         {this.renderMaterial(materia)}
