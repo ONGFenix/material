@@ -39,10 +39,10 @@ const Routes = () => (
         <Route path='/port/red' render={() => <Frente content={contents[3].frentes[2].assuntos} />} />
         {/* biologia */}
         <Route exact path='/bio' render={() => <Menu content={contents[4]} />}/>
-        <Route path='/bio/frente1' render={() => <Frente content={contents[4].frentes[0].assuntos} />} />
-        <Route path='/bio/frente2' render={() => <Frente content={contents[4].frentes[1].assuntos} />} />
-        <Route path='/bio/frente3' render={() => <Frente content={contents[4].frentes[2].assuntos} />} />
-        <Route path='/bio/frente4' render={() => <Frente content={contents[4].frentes[3].assuntos} />} />
+        <Route path='/bio/eco' render={() => <Frente content={contents[4].frentes[0].assuntos} />} />
+        <Route path='/bio/gen' render={() => <Frente content={contents[4].frentes[1].assuntos} />} />
+        <Route path='/bio/evo' render={() => <Frente content={contents[4].frentes[2].assuntos} />} />
+        <Route path='/bio/fisi' render={() => <Frente content={contents[4].frentes[3].assuntos} />} />
         {/* historia */}
         <Route exact path='/his' render={() => <Menu content={contents[5]} />}/>
         <Route path='/his/frente1' render={() => <Frente content={contents[5].frentes[0].assuntos} />} />

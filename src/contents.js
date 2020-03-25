@@ -164,23 +164,77 @@ const contents = [
         link: '/bio',
         frentes:[
             {
-                name: "Frente 1",
-                link: '/bio/frente1',
+                name: "Ecologia e botânica",
+                link: '/bio/eco',
+                assuntos:[
+                    
+                ]
+            },
+            {
+                name: "Biologia Molecular e Genética",
+                link: '/bio/gen',
+                assuntos:[
+                    {
+                        name: "Aula 2 - Biologia Molecular e Genética - Célula pro e eucariótica",
+                        hyperlink: true,
+                        material: "https://drive.google.com/drive/folders/1SRi8B7FbicYFbNnMS6D6E3o5khGqdY8r",
+                        referencias: [
+                          
+                        ],
+                        exercicios: {
+                          fixacao: [
+                            
+                          ],
+                          propostos: [
+                            
+                          ],
+                          discursivos: ""
+                        }
+                    },
+                    {
+                        name: "Aula 3 - Biologia Molecular e Genética - Organelas",
+                        hyperlink: true,
+                        material: "https://drive.google.com/drive/folders/1SRi8B7FbicYFbNnMS6D6E3o5khGqdY8r",
+                        referencias: [
+                          
+                        ],
+                        exercicios: {
+                          fixacao: [
+                            
+                          ],
+                          propostos: [
+                            
+                          ],
+                          discursivos: "https://drive.google.com/drive/folders/1SRi8B7FbicYFbNnMS6D6E3o5khGqdY8r"
+                        }
+                    },
+                    {
+                        name: "Aula 4 - Biologia Molecular e Genética -  Ácidos Nucléicos",
+                        hyperlink: true,
+                        material: "https://drive.google.com/drive/folders/1SRi8B7FbicYFbNnMS6D6E3o5khGqdY8r",
+                        referencias: [
+                          
+                        ],
+                        exercicios: {
+                          fixacao: [
+                            
+                          ],
+                          propostos: [
+                            
+                          ],
+                          discursivos: ""
+                        }
+                    },
+                ]
+            },
+            {
+                name: "Biologia Molecular e Evolução",
+                link: '/bio/evo',
                 assuntos:[]
             },
             {
-                name: "Frente 2",
-                link: '/bio/frente2',
-                assuntos:[]
-            },
-            {
-                name: "Frente 3",
-                link: '/bio/frente3',
-                assuntos:[]
-            },
-            {
-                name: "Frente 4",
-                link: '/bio/frente4',
+                name: "Seres Vivos e Fisiologia",
+                link: '/bio/fisi',
                 assuntos:[]
             },
         ]
@@ -210,44 +264,60 @@ const contents = [
                 link:  '/geo/fisica',
                 assuntos:[
                     {
-                        name: "Principais conceitos da Geografia Física",
+                        name: "Aula 00 - Conceitos básicos de Geografia",
                         hyperlink: true,
-                        material: "https://drive.google.com/file/d/1Rbt77Nv_KTKli9gqvXrcGuxevZSRocvs/view?usp=sharing",
+                        material: "https://drive.google.com/open?id=1Rbt77Nv_KTKli9gqvXrcGuxevZSRocvs",
                         referencias: [
+                          {
+                            name: "Vídeo_01_Conceitos básicos de Geografia",
+                            link: "https://www.youtube.com/watch?v=aR1OZIaEz4E&t=5s"
+                          },
+                          {
+                            name: "Dica_01_Estudos com resultado",
+                            link: "https://www.youtube.com/watch?v=QR_d6q135Ik&t=3s"
+                          }
                         ],
                         exercicios: {
-                            fixacao: [
-                            ],
-                            propostos: [
-                            
-                            ],
-                            discursivos: ""
+                          fixacao: [],
+                          propostos: [],
+                          discursivos: ""
                         }
                     },
                     {
-                        name: "Criação do universo e tectônica de placas",
+                        name: "Aula 01 - Origem do universo e do planeta Terra",
                         hyperlink: true,
-                        material: "https://drive.google.com/open?id=12x-4ttYc8sjfdUR7ONVuDpU-IQqrUupQ",
+                        material: "https://drive.google.com/open?id=1EuLufv9N5xxLMYjBcIEscg9WO5IL2Dyc",
                         referencias: [
                           {
-                            name: "Lista de exercícios - aula 01",
+                            name: "Lista_de_exercícios_01 - Placas tectônicas",
                             link: "https://drive.google.com/open?id=1MpLQxJRNqlVVmfxYsDc4OMSz7wtDI1zY"
                           },
                           {
-                            name: "Cap.02 - Para entender a Terra",
+                            name: "Vídeo_01_Origem do universo",
+                            link: "https://www.youtube.com/watch?v=da6BYRdXsyA&feature=youtu.be"
+                          },
+                          {
+                            name: "Vídeo_02_Origem do planeta Terra",
+                            link: "https://youtu.be/aiEr4wTNmnA"
+                          },
+                          {
+                            name: "Vídeo_03_Teoria da deriva continental",
+                            link: "https://www.youtube.com/watch?v=zwNAIUmQK1s&t=1s"
+                          },
+                          {
+                            name: "Leitura_01_Para Entender a Terra - Cap 1",
+                            link: "https://drive.google.com/open?id=1yddJNIfILfGWDwE4Ek0MnvKmn4G-OQys"
+                          },
+                          {
+                            name: "Leitura_02 - Para entender a Terra - Cap 2",
                             link: "https://drive.google.com/open?id=1ZpLgMpsqs7WKuxypG2aObZDkXzQLAkRI"
                           }
                         ],
                         exercicios: {
-                          fixacao: [
-                            {
-                              name: "Lista de exercícios - aula 01",
-                              link: "https://drive.google.com/open?id=1MpLQxJRNqlVVmfxYsDc4OMSz7wtDI1zY"
-                            }
-                          ],
+                          fixacao: [],
                           propostos: [
                             {
-                              name: "Lista de exercícios - aula 01",
+                              name: "Lista_de_exercícios_01 - Placas tectônicas",
                               link: "https://drive.google.com/open?id=1MpLQxJRNqlVVmfxYsDc4OMSz7wtDI1zY"
                             }
                           ],
@@ -255,30 +325,107 @@ const contents = [
                         }
                     },
                     {
-                        name: "Minerais e formação de rochas",
+                        name: "Aula_02 - Minerais e rochas",
                         hyperlink: true,
-                        material: "https://drive.google.com/open?id=12x-4ttYc8sjfdUR7ONVuDpU-IQqrUupQ",
+                        material: "https://drive.google.com/open?id=1ZpGlV6QtEcyzrQ7hK66L_PcGHdFOVDvW",
                         referencias: [
                           {
-                            name: "Cap.03 - Para entender a Terra",
+                            name: "Lista_de_exercícios_02 - Minerais e rochas",
                             link: "https://drive.google.com/open?id=1UBpf-_IuMlx0_cs-Dv7GvejuB-04RngQ"
                           },
                           {
-                            name: "Cap.04 - Para entender a Terra",
-                            link: "https://drive.google.com/open?id=1pQzr7UiTKpfcoZ8t1_v70biTtv09549F"
+                            name: "Leitura_02 - Para Entender a Terra - cap 3",
+                            link: "https://drive.google.com/open?id=1JbLH01mbjVGaoDhebgwztjjRmXke5wvh"
+                          },
+                          {
+                            name: "Leitura_03 - Para Entender a Terra - Cap 4",
+                            link: "https://drive.google.com/open?id=1c7arzIHYncxp5TyPjzQ2WjkCjL4QJN_x"
+                          },
+                          {
+                            name: "Leitura_04 - Para Entender a Terra - Cap 5",
+                            link: "https://drive.google.com/open?id=1zqGiAdcXAw-LbNFZKQBocc8j-kTfOdVc"
+                          },
+                          {
+                            name: "Leitura_05 - Para Entender a Terra - Cap 8",
+                            link: "https://drive.google.com/open?id=1uuHd00Q_OwXBAFTZAOsRliFQiWT33Oyr"
+                          },
+                          {
+                            name: "Leitura_06 - Para Entender a Terra - Cap 9",
+                            link: "https://drive.google.com/open?id=1gRfhjNSUytTzOucPS04XJ0Ps50bZNZ2s"
+                          },
+                          {
+                            name: "Vídeo_01 - Tipos de rochas",
+                            link: "https://www.youtube.com/watch?v=iDIm36aqYws&feature=youtu.be"
                           }
                         ],
                         exercicios: {
-                          fixacao: [
+                          fixacao: [],
+                          propostos: [
                             {
-                              name: "Cap.03 - Para entender a Terra",
+                              name: "Lista_de_exercícios_02 - Minerais e rochas",
                               link: "https://drive.google.com/open?id=1UBpf-_IuMlx0_cs-Dv7GvejuB-04RngQ"
                             }
                           ],
+                          discursivos: ""
+                        }
+                    },
+                    {
+                        name: "Aula_03 - Recursos minerais no Brasil e no mundo",
+                        hyperlink: true,
+                        material: "https://drive.google.com/open?id=1fqctsbZo_-trw_Iw0iHlQofwGoGYYKd5",
+                        referencias: [
+                            {
+                            name: "Lista-de-exercícios_03 - Recursos minerais no Brasil e no mundo",
+                            link: "https://drive.google.com/open?id=1I7lRDl37N9avqIedqAH7qmG80hsCLdxQ"
+                            },
+                            {
+                            name: "Vídeo_01 - Recursos minerais do Brasil",
+                            link: "https://www.youtube.com/watch?v=pnBUBNPxMLI&feature=youtu.be"
+                            }
+                        ],
+                        exercicios: {
+                            fixacao: [],
+                            propostos: [
+                            {
+                                name: "Lista-de-exercícios_03 - Recursos minerais no Brasil e no mundo",
+                                link: "https://drive.google.com/open?id=1I7lRDl37N9avqIedqAH7qmG80hsCLdxQ"
+                            }
+                            ],
+                            discursivos: ""
+                        }
+                    },
+                    {
+                        name: "Aula_04 - Geomorfologia e escalas de unidades geomorfológicas",
+                        hyperlink: true,
+                        material: "https://drive.google.com/open?id=1LBNGp4x4a5eDF8B0UzPBuBNW6TzvARkm",
+                        referencias: [
+                          {
+                            name: "Lista-de-exercícios_04 - Geomorfologia e escalas de unidades geomorfológicas",
+                            link: "https://drive.google.com/open?id=1OVZbpxFuNv6mZCWqu3hzglBfWi0ZJbPk"
+                          },
+                          {
+                            name: "Leitura_02 - Para Entender a Terra - Cap 10",
+                            link: "https://drive.google.com/open?id=11_I0js6el6eBcVH4MKxhW5CVFXyb6M21"
+                          },
+                          {
+                            name: "Leitura_03 - Para Entender a Terra - Cap 11",
+                            link: "https://drive.google.com/open?id=1ystXZ5r7A1KLlB0zMrj2it9NR416wmJP"
+                          },
+                          {
+                            name: "Leitura_04 - Apostila Poliedro - págs 53 a 99",
+                            link: "https://drive.google.com/open?id=1AeyRhVuUfvrmKg2UPnZ_AW6_eWP8Kw5K"
+                          },
+                          {
+                            name: "Vídeo_01 - Geologia e geomorfologia",
+                            link: "https://www.youtube.com/watch?v=eNC-NXx1pUw"
+                          }
+                        ],
+                        exercicios: {
+                          fixacao: [],
                           propostos: [
                             {
-                              name: "Cap.03 - Para entender a Terra",
-                              link: "https://drive.google.com/open?id=1UBpf-_IuMlx0_cs-Dv7GvejuB-04RngQ"
+                              name: "Lista-de-exercícios_04 - Geomorfologia e escalas de unidades geomorfológicas",
+                              link: "https://drive.google.com/open?id=1OVZbpxFuNv6mZCWqu3hzglBfWi0ZJbPk"
                             }
                           ],
                           discursivos: ""
