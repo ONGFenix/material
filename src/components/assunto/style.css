@@ -15,3 +15,8 @@ div.materia hr{
     margin-top: 15px;
     color: #da552f;
 }
+
+.navlink:not([href]){
+    color: #923b23;
+    text-decoration-color: #923b23;
+}

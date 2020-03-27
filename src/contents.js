@@ -6,7 +6,42 @@ const contents = [
             {
                 name: "Frente 1",
                 link: '/math/frente1',
-                assuntos:[]
+                assuntos:[
+                  {
+                    name: "Aula 01 - Conjuntos",
+                    hyperlink: true,
+                    material: "",
+                    referencias: [
+                      {
+                        name: "Instruções iniciais",
+                        link: "https://www.youtube.com/watch?v=gGfuUDjWEIE"
+                      },
+                      {
+                        name: "Teoria: conjuntos",
+                        link: "https://www.youtube.com/watch?v=_Sli2gQPTFU"
+                      },
+                      {
+                        name: "Teoria: diagramas de Venn",
+                        link: "https://www.youtube.com/watch?v=-N9ru-UDAfs"
+                      }
+                    ],
+                    exercicios: {
+                      fixacao: [
+                        {
+                          name: "Instruções iniciais",
+                          link: "https://www.youtube.com/watch?v=gGfuUDjWEIE"
+                        }
+                      ],
+                      propostos: [
+                        {
+                          name: "Instruções iniciais",
+                          link: "https://www.youtube.com/watch?v=gGfuUDjWEIE"
+                        }
+                      ],
+                      discursivos: ""
+                    }
+                  },
+                ]
             },
             {
                 name: "Frente 2",

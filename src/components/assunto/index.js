@@ -8,7 +8,7 @@ export default class Assunto extends Component{
     renderMaterial = materia => {
         if(materia.hyperlink){
             return (
-                <a href={materia.material} target="_blank" className="navlink" >
+                <a href={(materia.material)? materia.material: null} target="_blank" className="navlink">
                     <h2>Material didático</h2>
                 </a>
             );
@@ -69,7 +69,7 @@ export default class Assunto extends Component{
                         <ul>
                             {this.renderExercicios(materia.exercicios)}
                             <li>
-                                <a href={materia.exercicios.discursivos} className="navlink" download>
+                                <a href={(materia.exercicios.discursivos)? materia.exercicios.discursivos: null} className="navlink" download={(materia.exercicios.discursivos)? true:false}>
                                     <h2>Discursivos</h2>
                                 </a>
                             </li>
