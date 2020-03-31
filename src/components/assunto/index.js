@@ -31,7 +31,7 @@ export default class Assunto extends Component{
 
     renderExercicios = exercicios => (
         <div  className="exercicios">
-            <li>
+            {(exercicios.fixacao.length !== 0)? <li>
                 <h3>Fixação: </h3>
                 <ul>
                     {exercicios.fixacao.map(exercicio => (
@@ -40,8 +40,8 @@ export default class Assunto extends Component{
                         </a>
                     ))}
                 </ul>
-            </li>
-            <li>
+            </li>:<p/>}
+            {(exercicios.propostos.length !== 0)? <li>
             <h3>Propostos: </h3>
             <ul>
                 {exercicios.propostos.map(exercicio => (
@@ -50,7 +50,7 @@ export default class Assunto extends Component{
                     </a>
                 ))}
             </ul>
-            </li>
+            </li>:<p/>}
         </div>
     )
 
@@ -61,18 +61,18 @@ export default class Assunto extends Component{
                     <div className="materia" key={materia.name}>
                         <h1>{materia.name}</h1>
                         {this.renderMaterial(materia)}
-                        <h2>Referências:</h2>
+                        {(materia.referencias.length !== 0)? <h2>Referências:</h2>:<br/>}
                         <ul>
                             {this.renderReferencia(materia.referencias)}
                         </ul>
                         <h2>Exercícios:</h2>
                         <ul>
                             {this.renderExercicios(materia.exercicios)}
-                            <li>
+                            {(materia.exercicios.discursivos.length !== 0)? <li>
                                 <a href={(materia.exercicios.discursivos)? materia.exercicios.discursivos: null} className="navlink" download={(materia.exercicios.discursivos)? true:false}>
                                     <h2>Discursivos</h2>
                                 </a>
-                            </li>
+                            </li>:<p/>}
                         </ul>
                         <hr />
                     </div>
