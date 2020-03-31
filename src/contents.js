@@ -323,6 +323,23 @@ const contents = [
                         discursivos: "https://drive.google.com/drive/folders/1SRi8B7FbicYFbNnMS6D6E3o5khGqdY8r"
                       }
                     },
+                    {
+                      name: "Aula 5 - Biologia Molecular e Genética - DNA Parte II",
+                      hyperlink: true,
+                      material: "https://drive.google.com/drive/folders/1SRi8B7FbicYFbNnMS6D6E3o5khGqdY8r",
+                      referencias: [
+                        
+                      ],
+                      exercicios: {
+                        fixacao: [
+                          
+                        ],
+                        propostos: [
+                          
+                        ],
+                        discursivos: ""
+                      }
+                    },
                 ]
             },
             {

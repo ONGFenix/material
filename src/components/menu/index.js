@@ -9,7 +9,7 @@ const Menu = props => {
             <h1>{props.content.materia}</h1>
             <ul>
                 {props.content.frentes.map(page => (
-                    <NavLink to={page.link} className="navlink" activeClassName="navlink-active" >
+                    <NavLink to={page.link} key={page.link} className="navlink" activeClassName="navlink-active" >
                         <li>
                             {page.name}    
                         </li>
