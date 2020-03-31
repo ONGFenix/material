@@ -31,3 +31,9 @@ ul.box-sections li{
 .navlink-active{
     color: #da552f;
 }
+
+@media (max-width: 600px){
+    div#side-bar{
+        display: none;
+    }
+}

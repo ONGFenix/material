@@ -24,3 +24,14 @@
     padding: 10px;
     border: 1px solid #da552f;
 }
+
+@media (max-width: 600px){
+    .content li{
+        margin: 0.5rem;
+        padding-left: 0.2rem;
+    }
+
+    .content img{
+        width: 150px;
+    }
+}
