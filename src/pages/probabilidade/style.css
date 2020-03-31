@@ -1,0 +1,26 @@
+.content h1{
+    color: #da552f;
+}
+
+.content li{
+    margin: 2.5rem;
+    padding-left: 1rem;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+.content br{
+    font-size: 1.5em;
+}
+
+.symbol{
+    font-size: 1.5em;
+}
+
+.calculation{
+    margin: 1em;
+    padding: 10px;
+    border: 1px solid #da552f;
+}

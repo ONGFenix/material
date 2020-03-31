@@ -72,10 +72,6 @@ const contents = [
                                 link: 'https://pt.khanacademy.org/math/precalculus/prob-comb/combinatorics-precalc/v/factorial-and-counting-seat-arrangements',
                             },
                             {
-                                name: "PDF do livro de combinatória do Gelson/Iezzi",
-                                link: 'http://fuvestibular.com.br/apostilas/fundamentos-da-matematica-elementar/vol-5/',
-                            },
-                            {
                                 name: "Calculadora combinatória com explicação",
                                 link: 'http://www.matematicadidatica.com.br/CalculadoraArranjoCombinacaoSimples.aspx'
                             },
@@ -112,6 +108,56 @@ const contents = [
                             discursivos: 'https://drive.google.com/file/d/156cvXgF1Nf08WH74-2TNVmUyMKo7FnRU/view?usp=sharing'
                         }
                     },
+                    {
+                      name: "Probabilidade",
+                      hyperlink: false,
+                      material: '/material/probabilidade',
+                      referencias: [
+                          {
+                              name: "Khan Academy - Video aulas",
+                              link: 'https://pt.khanacademy.org/math/ap-statistics/probability-ap',
+                          },
+                          {
+                              name: "Material extra",
+                              link: 'https://www.exponencialconcursos.com.br/wp-content/uploads/2014/06/AULA-1-Espa%C3%A7o-amostral-e-probabilidades-conceito-axiomas.pdf',
+                          },
+                      ],
+                      exercicios: {
+                          fixacao: [
+                              {
+                                  name: "Exercício probabilidade simples",
+                                  link: 'https://br.ixl.com/math/6-ano/probabilidade-de-um-evento'
+                              },
+                              {
+                                name: "Exercício probabilidade complexos",
+                                link: 'https://br.ixl.com/math/6-ano/probabilidade-de-eventos-opostos-mutuamente-exclusivos-e-sobrepostos'
+                              },
+                              {
+                                name: "Exercício probabilidade com dependência",
+                                link: 'https://br.ixl.com/math/6-ano/probabilidade-de-eventos-dependentes-e-independentes'
+                              },
+                              {
+                                name: "Khan Academy - Exercícios",
+                                link: 'https://pt.khanacademy.org/math/ap-statistics/probability-ap',
+                            },
+                          ],
+                          propostos: [
+                              {
+                                  name: "Enem",
+                                  link: 'https://forms.gle/CXxYYxJF74nbcJTg8'
+                              },
+                              {
+                                  name: "Fuvest",
+                                  link: 'https://forms.gle/UBZpchnkNiVMKFV96'
+                              },
+                              {
+                                  name: "Unicamp",
+                                  link: 'https://forms.gle/eLWE3ovuEivUnMXv7'
+                              },
+                          ],
+                          discursivos: 'https://drive.google.com/file/d/1UEDAuM36leaDkL_Y2qRutc5XtUQu_VmZ/view?usp=sharing'
+                      }
+                  },
                 ]
             }
         ]
@@ -260,12 +306,102 @@ const contents = [
                           discursivos: ""
                         }
                     },
+                    {
+                      name: "Aula 5 - Biologia Molecular e Genética - DNA Parte I",
+                      hyperlink: true,
+                      material: "https://drive.google.com/drive/folders/1SRi8B7FbicYFbNnMS6D6E3o5khGqdY8r",
+                      referencias: [
+                        
+                      ],
+                      exercicios: {
+                        fixacao: [
+                          
+                        ],
+                        propostos: [
+                          
+                        ],
+                        discursivos: "https://drive.google.com/drive/folders/1SRi8B7FbicYFbNnMS6D6E3o5khGqdY8r"
+                      }
+                    },
                 ]
             },
             {
                 name: "Biologia Molecular e Evolução",
                 link: '/bio/evo',
-                assuntos:[]
+                assuntos:[
+                  {
+                    name: "Biologia Molecular, Saúde e Evolução - Aula 2 - A membrana plasmática",
+                    hyperlink: true,
+                    material: "https://drive.google.com/drive/folders/1Al-D84TKoKGIwp0_82gjQB0Vadc8cNTz",
+                    referencias: [
+                      
+                    ],
+                    exercicios: {
+                      fixacao: [
+                        
+                      ],
+                      propostos: [
+                        
+                      ],
+                      discursivos: ""
+                    }
+                  },
+                  {
+                    name: "Biologia Molecular, Saúde e Evolução - Aula 3 - Biomoléculas",
+                    hyperlink: true,
+                    material: "https://drive.google.com/drive/folders/1Al-D84TKoKGIwp0_82gjQB0Vadc8cNTz",
+                    referencias: [
+                      
+                    ],
+                    exercicios: {
+                      fixacao: [
+                        
+                      ],
+                      propostos: [
+                        
+                      ],
+                      discursivos: ""
+                    }
+                  },
+                  {
+                    name: "Biologia Molecular, Saúde e Evolução - Aula 4 - Vírus",
+                    hyperlink: true,
+                    material: "https://drive.google.com/drive/folders/1Al-D84TKoKGIwp0_82gjQB0Vadc8cNTz",
+                    referencias: [
+                      
+                    ],
+                    exercicios: {
+                      fixacao: [
+                        
+                      ],
+                      propostos: [
+                        
+                      ],
+                      discursivos: ""
+                    }
+                  },
+                  {
+                    name: "Biologia Molecular, Saúde e Evolução - Aula 5 - Vitaminas",
+                    hyperlink: true,
+                    material: "https://drive.google.com/drive/folders/1Al-D84TKoKGIwp0_82gjQB0Vadc8cNTz",
+                    referencias: [
+                      {
+                        name: "Exercícios - Vitaminas",
+                        link: "https://drive.google.com/drive/folders/1Al-D84TKoKGIwp0_82gjQB0Vadc8cNTz"
+                      }
+                    ],
+                    exercicios: {
+                      fixacao: [
+                        {
+                          name: "Exercícios - Vitaminas",
+                          link: "https://drive.google.com/drive/folders/1Al-D84TKoKGIwp0_82gjQB0Vadc8cNTz"
+                        }
+                      ],
+                      propostos: [],
+                      discursivos: ""
+                    }
+                  },
+                ]
             },
             {
                 name: "Seres Vivos e Fisiologia",

@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import Main from './pages/main';
 import Menu from './components/menu';
 import Combinatoria from './pages/combinatoria';
+import Probabilidade from './pages/probabilidade';
 import contents from './contents';
 import Frente from './components/frente';
 
@@ -19,6 +20,7 @@ const Routes = () => (
         <Route path='/math/frente4' render={() => <Frente content={contents[0].frentes[3].assuntos} />} />
         <Route path='/math/frente5' render={() => <Frente content={contents[0].frentes[4].assuntos} />} />
         <Route path='/material/combinatoria' component={Combinatoria} />
+        <Route path='/material/probabilidade' component={Probabilidade} />
         {/* fisica */}
         <Route exact path='/fis' render={() => <Menu content={contents[1]} />}/>
         <Route path='/fis/frente1' render={() => <Frente content={contents[1].frentes[0].assuntos} />} />
