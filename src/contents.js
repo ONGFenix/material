@@ -174,7 +174,19 @@ const contents = [
             {
                 name: "Frente 2",
                 link: '/fis/frente2',
-                assuntos:[]
+                assuntos:[
+                  {
+                    name: "Eletrostática: Definições Fundamentais",
+                    hyperlink: true,
+                    material: "https://drive.google.com/file/d/1fTCS2n3-znisjq6ywFELrt5IPvu5iEjX/view?usp=sharing",
+                    referencias: [],
+                    exercicios: {
+                      fixacao: [],
+                      propostos: [],
+                      discursivos: ""
+                    }
+                  },
+                ]
             },
             {
                 name: "Frente 3",
@@ -189,7 +201,9 @@ const contents = [
             {
                 name: "Frente 5",
                 link: '/fis/frente5',
-                assuntos:[]
+                assuntos:[
+                  
+                ]
             },
         ]
     },
