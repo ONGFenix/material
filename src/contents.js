@@ -28,16 +28,40 @@ const contents = [
                     exercicios: {
                       fixacao: [
                         {
-                          name: "Instruções iniciais",
-                          link: "https://www.youtube.com/watch?v=gGfuUDjWEIE"
+                          name: "Lista 01, exercícios 1 a 12",
+                          link: "https://drive.google.com/open?id=1fIl8C6qmWKlh7YZdRjLK5JE7yt_tHPN1"
                         }
                       ],
-                      propostos: [
+                      propostos: [],
+                      discursivos: ""
+                    }
+                  },
+                  {
+                    name: "Aula 02 - Conjuntos numéricos especiais",
+                    hyperlink: true,
+                    material: "",
+                    referencias: [
+                      {
+                        name: "Instruções iniciais",
+                        link: "https://www.youtube.com/watch?v=ipBv2qTO7e4"
+                      },
+                      {
+                        name: "Teoria: conjuntos numéricos especiais",
+                        link: "https://www.youtube.com/watch?v=pGvLbq0OoLY"
+                      },
+                      {
+                        name: "Material extra: fração geratriz",
+                        link: "https://www.youtube.com/watch?v=r-X8QIrlQ3k"
+                      }
+                    ],
+                    exercicios: {
+                      fixacao: [
                         {
-                          name: "Instruções iniciais",
-                          link: "https://www.youtube.com/watch?v=gGfuUDjWEIE"
+                          name: "Lista 01, exercício 13",
+                          link: "https://drive.google.com/open?id=1fIl8C6qmWKlh7YZdRjLK5JE7yt_tHPN1"
                         }
                       ],
+                      propostos: [],
                       discursivos: ""
                     }
                   },
