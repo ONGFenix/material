@@ -71,23 +71,18 @@ const contents = [
                     material: "",
                     referencias: [
                       {
-                        name: "Lista 01, exercícios 14 e 15",
-                        link: "https://drive.google.com/open?id=1fIl8C6qmWKlh7YZdRjLK5JE7yt_tHPN1"
+                        name: "Aula gravada sobre representações de conjuntos infinitos",
+                        link: "https://drive.google.com/file/d/1R2QziXSx31v67pTwV_ZlcPskgn1CDsZe/view?usp=sharing"
                       }
                     ],
                     exercicios: {
                       fixacao: [
                         {
                           name: "Lista 01, exercícios 14 e 15",
-                          link: "https://drive.google.com/open?id=1fIl8C6qmWKlh7YZdRjLK5JE7yt_tHPN1"
+                          link: "https://drive.google.com/drive/folders/1fIl8C6qmWKlh7YZdRjLK5JE7yt_tHPN1"
                         }
                       ],
-                      propostos: [
-                        {
-                          name: "Lista 01, exercícios 14 e 15",
-                          link: "https://drive.google.com/open?id=1fIl8C6qmWKlh7YZdRjLK5JE7yt_tHPN1"
-                        }
-                      ],
+                      propostos: [],
                       discursivos: ""
                     }
                   },
