@@ -65,6 +65,32 @@ const contents = [
                       discursivos: ""
                     }
                   },
+                  {
+                    name: "Aula 03 - Representação de conjuntos infinitos",
+                    hyperlink: true,
+                    material: "",
+                    referencias: [
+                      {
+                        name: "Lista 01, exercícios 14 e 15",
+                        link: "https://drive.google.com/open?id=1fIl8C6qmWKlh7YZdRjLK5JE7yt_tHPN1"
+                      }
+                    ],
+                    exercicios: {
+                      fixacao: [
+                        {
+                          name: "Lista 01, exercícios 14 e 15",
+                          link: "https://drive.google.com/open?id=1fIl8C6qmWKlh7YZdRjLK5JE7yt_tHPN1"
+                        }
+                      ],
+                      propostos: [
+                        {
+                          name: "Lista 01, exercícios 14 e 15",
+                          link: "https://drive.google.com/open?id=1fIl8C6qmWKlh7YZdRjLK5JE7yt_tHPN1"
+                        }
+                      ],
+                      discursivos: ""
+                    }
+                  },
                 ]
             },
             {
