@@ -86,6 +86,35 @@ const contents = [
                       discursivos: ""
                     }
                   },
+                  {
+                    name: "Aula 04 - Resolução de problemas com equações do 1º grau",
+                    hyperlink: true,
+                    material: "",
+                    referencias: [
+                      {
+                        name: "Instruções iniciais",
+                        link: "https://www.youtube.com/watch?v=F3bajQF8b5M"
+                      },
+                      {
+                        name: "Teoria: resolução de equações do 1º grau (veja a partir dos 5 minutos)",
+                        link: "https://www.youtube.com/watch?v=0lbhe16At_A"
+                      },
+                      {
+                        name: "Teoria: resolução de problemas com equações do 1º grau",
+                        link: "https://www.youtube.com/watch?v=YkFd42F7KXs"
+                      }
+                    ],
+                    exercicios: {
+                      fixacao: [
+                        {
+                          name: "Lista 02",
+                          link:"https://drive.google.com/drive/folders/1fIl8C6qmWKlh7YZdRjLK5JE7yt_tHPN1"
+                        }
+                      ],
+                      propostos: [],
+                      discursivos: ""
+                    }
+                 },
                 ]
             },
             {
