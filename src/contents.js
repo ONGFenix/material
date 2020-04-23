@@ -115,6 +115,27 @@ const contents = [
                       discursivos: ""
                     }
                  },
+                 {
+                  name: "Aula 05 - Treinando equações do 1º grau",
+                  hyperlink: true,
+                  material: "",
+                  referencias: [
+                        {
+                          name: "Aula gravada sobre equações do 1º grau",
+                          link:"https://drive.google.com/open?id=12yS6itgI9ab0F80GItuA9nyIj6R-FJr_"
+                        }
+                      ],
+                      exercicios: {
+                        fixacao: [
+                          {
+                            name: "Lista 02",
+                            link:"https://drive.google.com/drive/folders/1fIl8C6qmWKlh7YZdRjLK5JE7yt_tHPN1"
+                          }
+                        ],
+                        propostos: [],
+                        discursivos: ""
+                      }
+                  },
                 ]
             },
             {

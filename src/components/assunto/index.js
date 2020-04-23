@@ -69,7 +69,7 @@ export default class Assunto extends Component{
                         <ul>
                             {this.renderExercicios(materia.exercicios)}
                             {(materia.exercicios.discursivos.length !== 0)? <li>
-                                <a href={(materia.exercicios.discursivos)? materia.exercicios.discursivos: null} className="navlink" download={(materia.exercicios.discursivos)? true:false}>
+                                <a href={(materia.exercicios.discursivos)? materia.exercicios.discursivos : null} className="navlink" download={(materia.exercicios.discursivos)? true:false}>
                                     <h2>Discursivos</h2>
                                 </a>
                             </li>:<p/>}
