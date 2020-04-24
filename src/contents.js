@@ -136,6 +136,39 @@ const contents = [
                         discursivos: ""
                       }
                   },
+                  {
+                    name: "Aula 06 - Equações do 2º grau",
+                    hyperlink: true,
+                    material: "",
+                    referencias: [
+                      {
+                        name: "Instruções iniciais",
+                        link: "https://www.youtube.com/watch?v=ToHsAoZmGoI"
+                      },
+                      {
+                        name: "Teoria: equações do 2º grau e fórmula de Bháskara",
+                        link: "https://www.youtube.com/watch?v=3rtMk_Fm2VI"
+                      },
+                      {
+                        name: "Teoria: soma e produto de raízes ",
+                        link: "https://www.youtube.com/watch?v=8Zwy1mMr3D0"
+                      },
+                      {
+                        name: "Teoria: fatoração de trinômio do 2º grau ",
+                        link: "https://www.youtube.com/watch?v=dh-6j_FyTMc"
+                      }
+                    ],
+                    exercicios: {
+                      fixacao: [
+                        {
+                          name: "Lista 03",
+                          link: "https://drive.google.com/drive/folders/1fIl8C6qmWKlh7YZdRjLK5JE7yt_tHPN1"
+                        }
+                      ],
+                      propostos: [],
+                      discursivos: ""
+                    }
+                 },
                 ]
             },
             {
