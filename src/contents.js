@@ -286,6 +286,52 @@ const contents = [
                           discursivos: 'https://drive.google.com/file/d/1UEDAuM36leaDkL_Y2qRutc5XtUQu_VmZ/view?usp=sharing'
                       }
                   },
+                  {
+                    name: "Triângulo de Pascal e Binômio de Newton",
+                    hyperlink: true,
+                    material: 'https://docs.google.com/document/d/19aA8_fn49DkZ_UG_Fw_h1KgyqGzRlZKmsMa6ByC-Mow/edit?usp=sharing',
+                    referencias: [
+                          {
+                              name: "Material extra para triângulo de pascal",
+                              link: 'https://matika.com.br/binomio-de-newton/triangulo-de-pascal',
+                          },
+                          {
+                              name: "Gerador de triângulo de pascal",
+                              link: 'https://calculareconverter.com.br/triangulo-de-pascal/',
+                          },
+                          {
+                              name: "Material extra de binômio de Newton",
+                              link: 'https://matematicabasica.net/binomio-de-newton/',
+                          },
+                          {
+                              name: "Mais material sobre binômio de Newton",
+                              link: 'https://matika.com.br/binomio-de-newton/termo-geral-do-binomio-de-newton',
+                          },
+                          {
+                            name: "Calculadora de Binômio de Newton",
+                            link: 'https://www.emathhelp.net/calculators/algebra-2/binomial-expansion-calculator/',
+                        },
+                      ],
+                      exercicios: {
+                          fixacao: [
+                              {
+                                  name: "Exercício Binômio",
+                                  link: 'https://matematicabasica.net/exercicios-sobre-binomio-de-newton/'
+                              },
+                              {
+                                name: "Exercício Binomio",
+                                link: 'https://exercicios.brasilescola.uol.com.br/exercicios-matematica/exercicios-sobre-binomio-newton.htm'
+                              },
+                              {
+                                name: "Khan academy teoria e exercícios",
+                                link: 'https://pt.khanacademy.org/math/algebra2/polynomial-functions/binomial-theorem/v/binomial-theorem'
+                              },
+                          ],
+                          propostos: [
+                          ],
+                          discursivos: 'https://www.qconcursos.com/questoes-militares/disciplinas/matematica-matematica/binomio-de-newton/questoes'
+                      }
+                  },
                 ]
             }
         ]
