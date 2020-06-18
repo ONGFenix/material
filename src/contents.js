@@ -332,6 +332,36 @@ const contents = [
                           discursivos: 'https://www.qconcursos.com/questoes-militares/disciplinas/matematica-matematica/binomio-de-newton/questoes'
                       }
                   },
+                  {
+                    name: "Módulo, função modular e equações modulares",
+                    hyperlink: true,
+                    material: 'https://docs.google.com/document/d/1Xn6taudStNc7HUXeDlzmLSV9Eh4Ytbw5C8G-nIXKDk8/edit?usp=sharing',
+                    referencias: [
+                        {
+                          name: "Material extra",
+                          link: 'https://www.todamateria.com.br/funcao-modular/'
+                        },
+                        {
+                          name: "Khan Academy",
+                          link: 'https://pt.khanacademy.org/math/algebra-home/alg-absolute-value'
+                        },
+                        {
+                          name: "Geogebra",
+                          link: 'https://www.geogebra.org/graphing?lang=pt'
+                        }
+                      ],
+                      exercicios: {
+                          fixacao: [
+                          ],
+                          propostos: [
+                            {
+                              name: "Lista completa de exercícios",
+                              link: 'https://docs.google.com/document/d/1QnJu6WMwj6yDRxL38Y9TYBPRC8PBPlbFQ3WFdeakroI/edit?usp=sharing'
+                            }
+                          ],
+                          discursivos: ''
+                      }
+                  },
                 ]
             }
         ]
